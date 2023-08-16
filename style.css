@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    margin: 0px;
+}
+
+
+header{
+    font-size: 50px ;
+    text-align: center;
+    background-color: rgb(3, 142, 192);
+}
+.heading{
+    font-family: fantasy;
+}
+
+.img1{
+    padding-top: 10px;
+    width: 100px;
+}
+.hr2{
+    margin: 0;
+    border: 3px rgb(180, 180, 180) solid ;
+        
+}
+nav {
+    padding-left: 120px;
+    background-color: #2f2f2f;
+    overflow: hidden;
+}
+nav a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    float : left;
+    padding-left: 50px;
+    padding-left: 100px;
+}
+.hr1{
+    margin: 0;
+    border: 3px rgb(180, 180, 180) solid ;
+}
+h1{
+    padding-top: 12px;
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+    font-family :sans-serif;
+}
+main{
+    background-color: rgb(3, 142, 192);
+    height: 100vh;
+}
+form{
+    padding-top: 10px;
+   text-align: center;
+   padding-left: 90px;
+
+}
+.input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    
+    width: 500px;
+    height: 40px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    border-radius: 50%;
+}
+.button:hover{
+    background-color: aqua;
+    box-shadow: 0 0 30px;
+}
+
